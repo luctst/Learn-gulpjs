@@ -1,0 +1,11 @@
+@import 'variables';
+
+body {
+    background: $blue;
+    padding: 0;
+    margin: 0;
+}
+p {
+    color: $pink;
+    text-align: center;
+}
