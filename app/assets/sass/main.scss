@@ -1,11 +1,13 @@
-@import '*.scss';
+@import 'mixin.scss';
+@import 'variables.scss';
 
 body {
-    background: $blue;
     padding: 0;
     margin: 0;
 }
-p {
-    color: $pink;
-    text-align: center;
+.container {
+    @include posWithFlex(center,center);
+}
+h1 {
+    color: $orangeFruitee;
 }
