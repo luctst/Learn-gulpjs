@@ -38,3 +38,4 @@ gulp.task('clean:src',() => { // Supprime le fichier appelés
 gulp.task('build',(callback) => {
     return plugin.runSequence('clean:src','useref',callback);
 });
+console.log(plugin);
